@@ -1,0 +1,108 @@
+{% load static %}
+<!--============================
+=            Footer            =
+=============================-->
+<footer class="footer section section-sm">
+    <!-- Container Start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-7 offset-md-1 offset-lg-0">
+                <!-- About -->
+                <div class="block about">
+                    <!-- footer logo -->
+                    <img src="{% static 'images/logo.png' %}" alt="">
+                    <!--img src="{% static 'images/logo-footer.png' %}" alt=""-->
+                    <!-- description -->
+                    <p class="alt-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <!-- Link list -->
+            <div class="col-lg-2 offset-lg-1 col-md-3">
+                <div class="block">
+                    <h4>Páginas del sitio</h4>
+                    <ul>
+                        <li><a href="#">Cobija</a></li>
+                        <li><a href="#">Cómo funciona</a></li>
+                        <li><a href="#">Ofertas & Cupones</a></li>
+                        <li><a href="#">Artículo & Consejos</a></li>
+                        <li><a href="{% url 'usuarios:termino' %}">Términos & condiciones</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Link list -->
+            <div class="col-lg-2 col-md-3 offset-md-1 offset-lg-0">
+                <div class="block">
+                    <h4>Páginas de administrador</h4>
+                    <ul>
+                        <li><a href="{% url 'usuarios:categoria' %}">Categoria</a></li>
+                        <li><a href="{% url 'usuarios:tienda' %}">Única Tienda</a></li>
+                        <li><a href="{% url 'usuarios:blog_unico' %}">Única Publicación</a></li>
+                        <li><a href="{% url 'usuarios:blog' %}">Blog</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+            <!-- Promotion -->
+            <div class="col-lg-4 col-md-7">
+                <!-- App promotion -->
+                <div class="block-2 app-promotion">
+                    <div class="mobile d-flex">
+                        <a href="">
+                            <!-- Icon -->
+                            <img src="{% static 'images/footer/phone-icon.png' %}" alt="mobile-icon">
+                        </a>
+                        <p>Obtenga la aplicación móvil <br>Coteco App y ahorre más</p>
+                    </div>
+                    <div class="download-btn d-flex my-3">
+                        <a href="#"><img src="{% static 'images/apps/google-play-store.png' %}" class="img-fluid"
+                                         alt=""></a>
+                        <a href="#" class=" ml-3"><img src="{% static 'images/apps/apple-app-store.png' %}"
+                                                       class="img-fluid"
+                                                       alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container End -->
+</footer>
+
+
+<footer class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-12">
+                <div class="copyright">
+                    <p>Copyright ©
+                        <script>
+                            var CurrentYear = new Date().getFullYear()
+                            document.write(CurrentYear)
+                        </script>
+                        .Todos los derechos reservados <a class="text-primary" href="https://www.facebook.com/AjerhyInc/"
+                                                         target="_blank">Ajerhy Inc</a></p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-12">
+                <ul class="social-media-icons text-right">
+                    <li><a class="fa fa-facebook" href="#" target="_blank"></a>
+                    </li>
+                    <li><a class="fa fa-twitter" href="#" target="_blank"></a>
+                    </li>
+                    <li><a class="fa fa-pinterest-p" href="#" target="_blank"></a>
+                    </li>
+                    <li><a class="fa fa-vimeo" href=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-to">
+        <a id="top" class="" href="#"><i class="fa fa-angle-up"></i></a>
+    </div>
+</footer>

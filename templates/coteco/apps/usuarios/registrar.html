@@ -1,0 +1,37 @@
+{% extends "index.html" %}
+
+{% load static %}
+
+{% block title %}Registrar{% endblock title %}
+
+{% block csssextras %}
+{% endblock csssextras %}
+
+{% block contenido %}
+<section class="login py-5 border-top-1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-8 align-item-center">
+                    <div class="border border">
+                        <h3 class="bg-gray p-4">Registrarse Ahora</h3>
+                        <form action="#">
+                            <fieldset class="p-4">
+                                <input type="email" placeholder="Email*" class="border p-3 w-100 my-2">
+                                <input type="password" placeholder="Password*" class="border p-3 w-100 my-2">
+                                <input type="password" placeholder="Confirm Password*" class="border p-3 w-100 my-2">
+                                <div class="loggedin-forgot d-inline-flex my-3">
+                                        <input type="checkbox" id="registering" class="mt-1">
+                                        <label for="registering" class="px-2">Al registrarse, acepta nuestro <a class="text-primary font-weight-bold" href="{% url 'usuarios:termino' %}">Terminos & Condiciones</a></label>
+                                </div>
+                                <button type="submit" class="d-block py-3 px-4 bg-primary text-white border-0 rounded font-weight-bold">Register Ahora</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock contenido %}
+
+{% block jssextras %}
+{% endblock jssextras %}

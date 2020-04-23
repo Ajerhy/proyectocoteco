@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6d1096c-48da-4045-85d9-8a83f6b79558" name="Default Changelist" comment="" />
+    <list default="true" id="f6d1096c-48da-4045-85d9-8a83f6b79558" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/usuarios/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/usuarios/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/coteco/apps/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/coteco/apps/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +16,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1almB3KG3khIvYLfOVTX5rOPmbl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,22 +34,24 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../geocovidpando" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apps" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\static\plugins\google-map\images" />
-      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\coteco\apps\informacion" />
-      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\coteco\apps\blogs" />
-      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\apps" />
-      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\base\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\apps" />
       <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\coteco" />
       <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\apps" />
       <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\apps" />
+      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\static\plugins\google-map\images" />
+      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\coteco\apps\informacion" />
+      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\coteco\apps\blogs" />
+      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\base\static" />
     </key>
   </component>
   <component name="RunManager">
@@ -93,7 +105,11 @@
       <workItem from="1587345547408" duration="8055000" />
       <workItem from="1587357763064" duration="10618000" />
       <workItem from="1587393532292" duration="6044000" />
-      <workItem from="1587443704658" duration="7304000" />
+      <workItem from="1587443704658" duration="8659000" />
+      <workItem from="1587475393982" duration="32000" />
+      <workItem from="1587478884391" duration="11000" />
+      <workItem from="1587599509410" duration="659000" />
+      <workItem from="1587606450395" duration="10006000" />
     </task>
     <servers />
   </component>
@@ -101,13 +117,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="365" y="290" key="FileChooserDialogImpl" timestamp="1587451286228">
+    <state x="365" y="290" key="FileChooserDialogImpl" timestamp="1587613038422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="365" y="290" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587451286228" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587443865778">
+    <state x="365" y="290" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587613038422" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587475393919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587443865778" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587475393919" />
   </component>
 </project>

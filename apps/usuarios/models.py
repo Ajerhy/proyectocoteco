@@ -1,4 +1,4 @@
-"""
+
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 from django.contrib.auth.models import AbstractBaseUser
@@ -12,7 +12,7 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 from apps.usuarios.templatetags.utils import ROLES
 
-class EstadoModel(models.Model):
+class EstadoModelo(models.Model):
     descripcion = models.TextField('descripcion', blank=True, null=True)
     # id = models.UUIDField('id', default=uuid.uuid4, primary_key=True, unique=True,null=False, blank=False, editable=False)
     direccion_ip = models.GenericIPAddressField(blank=True, null=True)
@@ -27,7 +27,7 @@ class EstadoModel(models.Model):
 
     class Meta:
         abstract = True
-
+"""
 class UserManager(BaseUserManager):
     def create_user(self, usuario, email, password):
         if not email:

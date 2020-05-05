@@ -1,0 +1,1 @@
+web: gunicorn proyectocoteco.wsgi --log-file -

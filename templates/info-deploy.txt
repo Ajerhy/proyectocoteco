@@ -1,0 +1,129 @@
+Requisitos
+- Cuenta en Heroku y Heroku Cli instalado en el ordenador
+- Tener instalado gunicorn y whitenoise: pip install gunicorn, whitenoise
+
+Usando Heroku Toolbelt
+- heroku login (ingresar correo y contraseña de heroku)
+- heroku create app_name
+
+Agregar el archivo Procfile con el contenido:pip
+web: gunicorn project_name.wsgi --log-file -
+
+Agregar el archivo requirements.txt:
+pip freeze (mayor que) requirements.txt
+
+Agregar el archivo runtime.txt
+python-2.7.14           (indicar la versión buildpack)
+
+En el archivo settings.py
+- DEBUG = False
+- ALLOWED_HOSTS = ['*']
+- En el area de staticos:
+    - STATIC_URL = '/static/'
+    - STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+    - 
+
+En el archivo wsgi.py
+import os
+
+from django.core.wsgi import get_wsgi_application
+*** from whitenoise.django import DjangoWhiteNoise
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", “project_name.settings")
+application = get_wsgi_application()
+*** application = DjangoWhiteNoise(application)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dj-database-url
+gunicorn
+python-decouple
+
+psycopg2==2.8.4
+
+manage.py collectstatic --noinput
+heroku login
+
+heroku create proyectocoteco
+heroku git:remote -a proyectocoteco
+heroku config:set DISABLE_COLLECTSTATIC=1
+heroku addons:create heroku-postgresql:hobby-dev
+//heroku addons:create heroku-postgresql:hobby-dev -a proyectocoteco
+//heroku config -a proyectocoteco
+*git push heroku master
+heroku run python manage.py migrate
+//heroku run python manage.py makemigrations usuario
+heroku run python manage.py createsuperuser
+
+migrar en postgresql
+subir
+heroku run python manage.py migrate
+heroku run python manage.py createsuperuser
+@
+git add --all
+git commit -m "nuevo modulo"
+*git push heroku master
+
+heroku open
+heroku config
+heroku addons
+heroku addons:open
+
+
+
+[auth]
+    changepassword
+    createsuperuser
+
+[authtoken]
+    drf_create_token
+
+[contenttypes]
+    remove_stale_contenttypes
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+[rest_framework]
+    generateschema
+
+[sessions]
+    clearsessions
+
+[staticfiles]
+    collectstatic
+    findstatic
+    runserver

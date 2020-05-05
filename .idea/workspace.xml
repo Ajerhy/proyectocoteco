@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6d1096c-48da-4045-85d9-8a83f6b79558" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectocoteco/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/proyectocoteco/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates" />
       <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco" />
       <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\apps" />
       <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\static\plugins\google-map\images" />
       <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\coteco\apps\informacion" />
-      <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\templates\coteco\apps\blogs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\PycharmProjects\proyectocoteco\apps" />
@@ -117,7 +115,7 @@
       <workItem from="1588336932205" duration="434000" />
       <workItem from="1588337553411" duration="1480000" />
       <workItem from="1588352611197" duration="195000" />
-      <workItem from="1588686988065" duration="886000" />
+      <workItem from="1588686988065" duration="1692000" />
     </task>
     <servers />
   </component>

@@ -51,6 +51,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # libreria para deploy debug false
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    # Middleware for heroku
 ]
 
 ROOT_URLCONF = 'proyectocoteco.urls'
@@ -67,9 +70,6 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                # libreria para deploy debug false
-                'whitenoise.middleware.WhiteNoiseMiddleware',
-                # Middleware for heroku
             ],
         },
     },

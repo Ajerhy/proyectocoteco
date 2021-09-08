@@ -19,7 +19,7 @@ Markdown==3.2.1
 MarkupPy==1.14
 odfpy==1.4.1
 openpyxl==3.0.3
-Pillow==7.0.0
+Pillow==8.3.2
 psycopg2==2.8.4
 psycopg2-binary==2.8.4
 python-decouple==3.3
